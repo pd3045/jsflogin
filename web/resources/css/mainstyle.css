@@ -10,6 +10,8 @@ and open the template in the editor.
 
 body{
     background: url(#{resource['img/img.jpg']});
+font-family: fantasy;
+font-size:   12px;
 }
 #login-form {
     width: 60% ;
@@ -19,5 +21,11 @@ body{
     padding: 10px 5px 10px 5px;
 }
 #login-form > * {
-    margin-left: 50px; 
+    margin-left: 40px; 
+}
+#cmdbtn {
+    border: none;
+    background: #ffff33;
+    color: black;
+    width: 55px;
 }
