@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.firstapp;
+package com.utl;
 
 import javax.inject.Named;
 import javax.enterprise.context.SessionScoped;

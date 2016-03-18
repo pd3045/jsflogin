@@ -1,0 +1,14 @@
+body{
+font-family: fantasy;
+font-size:   12px;
+}
+
+#wrapper {
+    background: #99ff00;
+}
+#content {
+    background: aqua;
+}
+#footer {
+    background: #ffff33;
+}

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui
+      ="http://xmlns.jcp.org/jsf/facelets" >
+        
+    <h:head>
+        <h:outputStylesheet name="maimStyle.css" library="css" />
+        <title>
+            <ui:insert name="title">
+            #{bundle['app.title']}
+            </ui:insert>
+        </title>
+        <ui:insert name= "css" />
+          <ui:insert name= "js" />
+    </h:head>
+    <h:body>
+        <div id="wrapper" />
+             <header>
+                 <ui:insert name =" header" >
+                     <h1> #{bundle['header']}</h1>
+                 </ui:insert>
+            </header>
+            <div id="content" />
+             <ui:insert name ="content" >
+                     <h1> #{bundle['content.sorry']}</h1>
+             </ui:insert>
+            <div id="footer" />
+                 <ui:insert name =" footer" >
+                     <h1> #{bundle['footer.copyright']}</h1>
+                 </ui:insert>
+    </h:body>
+</html>
+
